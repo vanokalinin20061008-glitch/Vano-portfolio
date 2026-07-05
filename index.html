@@ -244,6 +244,11 @@
   .foot{padding:2.4rem var(--gut);border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;
     font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--haze)}
 
+  /* ---------- commercial band ---------- */
+  .commercial{background:var(--void-2);border-block:1px solid var(--line)}
+  .commercial__lede{font-weight:300;color:var(--frost-2);font-size:clamp(1.1rem,2.1vw,1.45rem);line-height:1.5;max-width:40ch;margin-bottom:2.2rem}
+  .commercial__lede strong{color:var(--frost);font-weight:600}
+
   /* ---------- process screens ---------- */
   .screens__lead{font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--frost-2);margin-top:3.4rem;margin-bottom:1.6rem;display:flex;align-items:center;gap:.85rem}
   .screens__lead::after{content:"";flex:1;height:1px;background:var(--line);max-width:120px}
@@ -280,6 +285,7 @@
     <div class="nav__links">
       <a href="#work">Work</a>
       <a href="#process">Process</a>
+      <a href="#commercial">Commercial</a>
       <a href="#director">Director</a>
       <a href="#contact">Contact</a>
     </div>
@@ -364,11 +370,25 @@
     </div>
   </section>
 
+  <!-- ===================== COMMERCIAL ===================== -->
+  <section class="section commercial" id="commercial">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span class="num">04</span> Commercial</p>
+      <p class="commercial__lede reveal">The same workflow and precision, pointed at <strong>ads and other formats</strong>.</p>
+      <div class="reel__frame reveal">
+        <iframe src="https://player.vimeo.com/video/1207219803?title=0&amp;byline=0&amp;portrait=0&amp;color=58b6ea&amp;dnt=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fieldgate — Commercial Spot"></iframe>
+      </div>
+      <div class="reel__meta reveal">
+        <span><b>0:29</b></span><span>Concept</span><span>Direction</span><span>Generation</span><span>Compositing</span><span>Color</span><span>Sound Design</span><span>Edit</span><span><b>Solo</b></span>
+      </div>
+    </div>
+  </section>
+
   <!-- ===================== DIRECTOR ===================== -->
   <section class="section" id="director">
     <div class="wrap about">
       <div class="about__text">
-        <p class="eyebrow reveal"><span class="num">04</span> Director</p>
+        <p class="eyebrow reveal"><span class="num">05</span> Director</p>
         <h2 class="about__name reveal">Vano</h2>
         <div class="about__body reveal">
           <p>I'm a film director working in AI animation and visual effects. I direct solo — composition, blocking, continuity, performance — then composite, color, score and cut, and I'm <strong>obsessive about control over every frame</strong>.</p>
@@ -383,7 +403,7 @@
   <!-- ===================== CONTACT ===================== -->
   <section class="section contact" id="contact">
     <div class="wrap">
-      <p class="eyebrow reveal"><span class="num">05</span> Contact</p>
+      <p class="eyebrow reveal"><span class="num">06</span> Contact</p>
       <h2 class="contact__big reveal">Open to work.</h2>
       <p class="contact__sub reveal">Commissioned projects, solo or with your team — and open to joining a studio.</p>
       <div class="contact__row reveal">
